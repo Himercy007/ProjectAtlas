@@ -4,7 +4,6 @@
 
 **文件留在原目录，关系画在画布上。** 不用再为了对齐命名规范去重命名一堆英文文件，也不用靠记忆回想「这个结果是哪一版跑出来的」。
 
-![工程仿真场景](docs/screenshots/02-engineering.png)
 
 <p align="center">
   <img alt="Windows" src="https://img.shields.io/badge/platform-Windows%2011-0078D4?logo=windows" />
@@ -38,7 +37,7 @@ ProjectAtlas 的做法是：**文件随便放，路径不用改**。在画布上
 - 曲线图、云图直接从 Fluent / Excel 导出后拖进来，不用改名；
 - 「case 目录」「V1.0 报告」是链接，点开就是原始文件与文件夹。
 
-![工科仿真](docs/screenshots/02-engineering.png)
+<img width="2250" height="2495" alt="02-engineering" src="https://github.com/user-attachments/assets/4b39d75e-8e03-4bd7-844b-be4609eee180" />
 
 
 ### 2. 人文社科：关系网而不是时间线
@@ -47,7 +46,7 @@ ProjectAtlas 的做法是：**文件随便放，路径不用改**。在画布上
 
 词云和编码表是图片块，访谈录音、转写稿、问卷原始数据挂在说明区的链接里。
 
-![人文社科](docs/screenshots/04-humanities.png)
+<img width="2677" height="2552" alt="04-humanities" src="https://github.com/user-attachments/assets/72e818a1-8917-4b2f-819c-633d6542790f" />
 
 ### 3. 技能学习：一条能回看的路线
 
@@ -55,7 +54,7 @@ ProjectAtlas 的做法是：**文件随便放，路径不用改**。在画布上
 
 复习时不用再翻进度条——看截图就知道讲到哪、当时记了什么。
 
-![技能学习](docs/screenshots/03-learning.png)
+<img width="3545" height="2578" alt="03-learning" src="https://github.com/user-attachments/assets/959e17b1-5de8-4d40-a37f-5d26fb747e06" />
 
 ---
 
@@ -84,15 +83,14 @@ ProjectAtlas 的做法是：**文件随便放，路径不用改**。在画布上
 - 卡片墙 + 搜索 + 缩略图；项目主题色在卡片上直接点色条更换，卡片整条显示该颜色。
 - **文件夹**归类项目（支持拖入），文件夹有独立主题色；项目关联**不受文件夹限制**。
 - 排序支持「按时间」与「手动排序」（拖动卡片）。
-
-![项目库](docs/screenshots/01-library.png)
+<img width="5083" height="3090" alt="01-library" src="https://github.com/user-attachments/assets/86560a91-0319-4b5b-a2a5-832db3c25411" />
 
 ### 项目关联与图谱
 - 项目之间是**有方向**的引用：A 引用 B 后，A 显示「引用了 B」，B 显示「被 A 引用」；从 A 打开 B 叫「打开」，从 B 打开 A 叫「引申」。
 - 主页「关联图谱」用有向图展示所有项目的关系：节点可拖动、可吸附网格、可自动排列（有引用的项目聚在一起，尽量不交叉），连线可单独改颜色/粗细，整体可切换曲线/折线。
 - 画布内「查看关联图谱」只显示与本项目直接相关的项目。
 
-![关联图谱](docs/screenshots/05-graph.png)
+<img width="1270" height="773" alt="05-graph" src="https://github.com/user-attachments/assets/c2c90f73-98b3-4269-92b3-5878e8d8bfe3" />
 
 ### 画布外观
 - 背景色、透明度、纹理（纯色 / 点阵 / 网格）、疏密均可调；深色背景自动切换浅色纹理。
@@ -112,8 +110,6 @@ ProjectAtlas 的做法是：**文件随便放，路径不用改**。在画布上
 3. 点「＋ 新建项目」，双击空白处开始写第一个块。
 4. 拖块右侧的「＋」到另一个块上，就连出一条线。
 5. 选中块，在下方点「+ 链接」，把本机文件、文件夹或网页挂上去。
-
-![文件夹归类](docs/screenshots/06-folders.png)
 
 ### 快捷键
 
